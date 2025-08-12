@@ -1,0 +1,80 @@
+
+/*** Estilo sobrio 
+
+
+ion-card,
+.ion-card {
+  border: 3px solid #e0e0e0;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+  border-radius: 16px;
+  transition: box-shadow 0.2s;
+  background: #fff;
+}
+
+/* Título del IonCard */ /***
+.ion-card-title,
+ion-card-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #222 !important; 
+}
+
+/* Subtítulo del IonCard */   /***
+.ion-card-subtitle,
+ion-card-subtitle {
+  color: #444;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* Contenido del IonCard */  /***
+.ion-card-content,
+ion-card-content {
+  color: #000;
+  font-size: 12px;
+}
+
+
+/***estilo moderno A **/
+.cv-card {
+  background: #1a2327;
+  border: 2px solid #1c2a18;
+  box-shadow: 0 6px 18px rgba(34, 197, 94, 0.18);
+  border-radius: 18px;
+  transition: box-shadow 0.2s;
+}
+
+.cv-card ion-card-title,
+.cv-card .ion-card-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #e78169 !important;
+}
+
+.cv-card ion-card-subtitle,
+.cv-card .ion-card-subtitle {
+  color: #cc6633;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.cv-card ion-card-content,
+.cv-card .ion-card-content {
+  color: #e78169;
+  font-size: 14px;
+}
+
+.cv-card ion-list {
+  background: #1a2327 !important;
+}
+
+.cv-card ion-item {
+  --background: #1a2327 !important;
+  font-weight: bold;
+  color: #ffff66;
+}
+
+.cv-content {
+  --background: #b9b26c !important;
+}
+
