@@ -79,6 +79,7 @@ const CV: React.FC = (props: any) => {
             <IonCardTitle className="cv-card-title-2">
               Experiencia Profesional
             </IonCardTitle>
+            <br/>
             <IonCardSubtitle className="cv-card-title-3">
               Desarrolladora Full Stack Junior | Epidata
             </IonCardSubtitle>
