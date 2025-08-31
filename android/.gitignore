@@ -94,3 +94,11 @@ capacitor-cordova-android-plugins
 
 # Copied web assets
 app/src/main/assets/public
+
+
+# Claves privadas
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+ 
