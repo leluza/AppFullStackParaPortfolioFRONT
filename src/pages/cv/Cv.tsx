@@ -216,6 +216,6 @@ const CV: React.FC = (props: any) => {
 
     </IonPage>
   );
-};
+}
 
 export default CV;
