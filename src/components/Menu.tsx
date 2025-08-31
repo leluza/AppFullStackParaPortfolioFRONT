@@ -42,7 +42,7 @@ const appPages: AppPage[] = [
     mdIcon: people
   },
   {
-    title: 'CV',
+    title: 'CV Adelina Mayol' ,
     url: '/page/cv',
     iosIcon: libraryOutline,
     mdIcon: library

@@ -3,6 +3,8 @@ import { IonButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonMenuB
 import '../../../src/theme/cardStyle.css';
 import './../../theme/cardStyle.css';
 
+import { logoGithub, logoLinkedin } from 'ionicons/icons';
+import { IonIcon } from '@ionic/react';
 
 const CV: React.FC = (props: any) => {
 
@@ -24,9 +26,17 @@ const CV: React.FC = (props: any) => {
             Desarrolladora Full Stack
           </IonCardSubtitle>
           <div className="cv-card-contact-header">
-            📍 Córdoba, Argentina · ✉️ adelina.mayol@gmail.com · 🔗
-            <a href="https://linkedin.com/in/adelina-mayol" target="_blank" rel="noopener noreferrer">
+            📍 Córdoba, Argentina · ✉️ adelina.mayol@gmail.com
+            <br />
+            <a href="https://linkedin.com/in/adelina-mayol" target="_blank" rel="noopener noreferrer"
+              style={{ marginRight: '20px' }}>
+              <IonIcon icon={logoLinkedin} style={{ fontSize: '1.2em', verticalAlign: 'middle', marginRight: '4px' }} />
               linkedin.com/in/adelina-mayol
+            </a>
+
+            <a href="https://github.com/leluza?tab=repositories" target="_blank" rel="noopener noreferrer">
+              <IonIcon icon={logoGithub} style={{ fontSize: '1.2em', verticalAlign: 'middle', marginRight: '4px' }} />
+              github.com/leluza
             </a>
           </div>
 
