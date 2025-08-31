@@ -1,4 +1,3 @@
-
 /*** Estilo sobrio 
 
 
@@ -11,7 +10,8 @@ ion-card,
   background: #fff;
 }
 
-/* Título del IonCard */ /***
+/* Título del IonCard */
+/***
 .ion-card-title,
 ion-card-title {
   font-weight: bold;
@@ -19,7 +19,8 @@ ion-card-title {
   color: #222 !important; 
 }
 
-/* Subtítulo del IonCard */   /***
+/* Subtítulo del IonCard */
+/***
 .ion-card-subtitle,
 ion-card-subtitle {
   color: #444;
@@ -27,7 +28,8 @@ ion-card-subtitle {
   font-weight: normal;
 }
 
-/* Contenido del IonCard */  /***
+/* Contenido del IonCard */
+/***
 .ion-card-content,
 ion-card-content {
   color: #000;
@@ -37,7 +39,7 @@ ion-card-content {
 
 /***estilo moderno A **/
 .cv-card {
-  background: #1a2327;
+  background: #fdfdfd;
   border: 2px solid #1c2a18;
   box-shadow: 0 6px 18px rgba(34, 197, 94, 0.18);
   border-radius: 18px;
@@ -48,33 +50,86 @@ ion-card-content {
 .cv-card .ion-card-title {
   font-weight: bold;
   font-size: 18px;
-  color: #e78169 !important;
+  color: #295a89 !important;
 }
 
 .cv-card ion-card-subtitle,
 .cv-card .ion-card-subtitle {
-  color: #cc6633;
+  color: #8ea704;
   font-size: 13px;
   font-weight: normal;
 }
 
 .cv-card ion-card-content,
 .cv-card .ion-card-content {
-  color: #e78169;
+  color: #050505;
   font-size: 14px;
 }
 
 .cv-card ion-list {
-  background: #1a2327 !important;
+  background: #ffffff !important;
 }
 
 .cv-card ion-item {
-  --background: #1a2327 !important;
-  font-weight: bold;
-  color: #ffff66;
+  --background: #ffffff !important;
+  font-weight: 500;
+  color: #050505 !important;
+  font-size: 14px !important;
+
 }
 
 .cv-content {
-  --background: #b9b26c !important;
+  --background: #ffffff !important;
 }
 
+.cv-card-title-header {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+.cv-card-subtitle-header {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 1.3rem;
+  color: #7b8a8b;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.cv-card-contact-header {
+  text-align: center;
+  color: #7b8a8b;
+  font-size: 1.05rem;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.cv-card-contact-header a {
+  color: #2563EB;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cv-card-contact-header a:hover {
+  text-decoration: underline;
+}
+
+.cv-card-title-2 {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.2em;
+}
+
+.cv-card-title-3 {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 16px !important;
+  font-weight: bold;
+  color: #295a89 !important;
+  margin-bottom: 0.2em;
+}
