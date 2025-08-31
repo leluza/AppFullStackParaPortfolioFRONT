@@ -23,7 +23,13 @@ interface AppPage {
 }
 
 const appPages: AppPage[] = [
+  
   {
+    title: 'CV Adelina Mayol' ,
+    url: '/page/cv',
+    iosIcon: libraryOutline,
+    mdIcon: library
+  },{
     title: 'Clientes',
     url: '/page/customers',
     iosIcon: peopleOutline,
@@ -40,12 +46,6 @@ const appPages: AppPage[] = [
     url: '/page/suppliers',
     iosIcon: peopleOutline,
     mdIcon: people
-  },
-  {
-    title: 'CV Adelina Mayol' ,
-    url: '/page/cv',
-    iosIcon: libraryOutline,
-    mdIcon: library
   }
 ];
 
@@ -61,7 +61,7 @@ const Menu: React.FC = () => {
 
 
           <IonListHeader>
-            <IonLabel>Portfolio</IonLabel>
+            <IonLabel  className="menu-portfolio-label">Portfolio</IonLabel>
 
           </IonListHeader>
 

@@ -111,3 +111,15 @@ ion-note {
 ion-item.selected {
   --color: var(--ion-color-primary);
 } 
+
+.menu-portfolio-label {
+  display: block;
+  text-align: center;
+  color: #044d53;         /* Plateado */
+  font-size: 22px;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;     /* Espacio debajo */
+  margin-top: 0; 
+}
